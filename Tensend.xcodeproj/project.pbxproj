@@ -13,6 +13,7 @@
 		AA5AF94D23D83CFD00C748C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5AF94B23D83CFD00C748C3 /* Main.storyboard */; };
 		AA5AF94F23D83CFF00C748C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5AF94E23D83CFF00C748C3 /* Assets.xcassets */; };
 		AA5AF95223D83CFF00C748C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5AF95023D83CFF00C748C3 /* LaunchScreen.storyboard */; };
+		AAEF8E7623D9897B0023CFC1 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = AAEF8E7523D9897B0023CFC1 /* Montserrat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		AA5AF94E23D83CFF00C748C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA5AF95123D83CFF00C748C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5AF95323D83CFF00C748C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEF8E7523D9897B0023CFC1 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		AAEF8E7823D99A230023CFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		AA5AF94423D83CFD00C748C3 /* Tensend */ = {
 			isa = PBXGroup;
 			children = (
+				AAEF8E7523D9897B0023CFC1 /* Montserrat */,
 				AA5AF94523D83CFD00C748C3 /* AppDelegate.swift */,
 				AA5AF94723D83CFD00C748C3 /* SceneDelegate.swift */,
 				AA5AF94923D83CFD00C748C3 /* ViewController.swift */,
@@ -126,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5AF95223D83CFF00C748C3 /* LaunchScreen.storyboard in Resources */,
+				AAEF8E7623D9897B0023CFC1 /* Montserrat in Resources */,
 				AA5AF94F23D83CFF00C748C3 /* Assets.xcassets in Resources */,
 				AA5AF94D23D83CFD00C748C3 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AA5AF94C23D83CFD00C748C3 /* Base */,
+				AAEF8E7823D99A230023CFC1 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
